@@ -1,0 +1,21 @@
+$TTL 86400
+@ IN SOA ns1.matheusmauricio.net. admin.matheusmauricio.net. (
+    2023112301 ; Serial
+    3600       ; Refresh
+    1800       ; Retry
+    604800     ; Expire
+    86400      ; Minimum TTL
+)
+
+; Name servers
+@       IN NS ns1.matheusmauricio.net.
+
+; A records
+ns1     IN A 10.197.9.239
+www     IN A 10.197.9.239
+
+; CNAME records
+mail    IN CNAME www.matheusmauricio.net.
+
+; MX records
+@       IN MX 10 mail.matheusmauricio.net.

@@ -1,0 +1,4 @@
+zone "matheusmauricio.net" {
+    type master;
+    file "/etc/bind/zones/db.matheusmauricio.net";
+};

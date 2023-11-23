@@ -1,0 +1,11 @@
+options {
+    directory "/var/bind";
+
+    forwarders {
+        8.8.8.8; 
+        8.8.4.4;
+    };
+
+    allow-query { any; };
+    allow-recursion { any; };
+};
